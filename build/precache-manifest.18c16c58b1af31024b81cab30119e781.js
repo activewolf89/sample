@@ -488,7 +488,7 @@ self.__precacheManifest = [
     "url": "/static/media/index.4eb253c0.mjs"
   },
   {
-    "revision": "8e0ee85d0ea81e5cb310bd4ec7e3206e",
+    "revision": "6f17284f8903c70775f64302c0259b43",
     "url": "/index.html"
   }
 ];

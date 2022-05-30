@@ -189,7 +189,7 @@ export class App extends React.Component {
 
   render(){
     return (
-      <Div position='relative' >
+      <Div position='relative' pr>
         <Helmet
           title="Home"
           name="Home"

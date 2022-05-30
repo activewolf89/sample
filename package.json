@@ -70,6 +70,7 @@
     "redux-multi": "^0.1.12",
     "redux-saga": "^0.16.0",
     "reselect": "^3.0.1",
+    "serve": "^13.0.2",
     "source-map-explorer": "^2.1.1",
     "state-cities": "^1.0.6",
     "styled-components": "^3.2.6",
