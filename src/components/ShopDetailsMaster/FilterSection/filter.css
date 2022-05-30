@@ -1,0 +1,17 @@
+
+.filter-enter {
+  max-height: 0px;
+}
+.filter-enter-active {
+  max-height: 15vw;
+}
+
+.filter-exit {
+  max-height: 30vw;
+
+}
+.filter-exit-active {
+  overflow:hidden;
+  max-height: 0px;
+
+}

@@ -1,0 +1,28 @@
+.details {
+  max-height: 0px;
+  overflow:hidden;
+  transition: all 300ms ease-out;
+
+}
+
+.details-enter {
+  max-height: 400px;
+  transition: all 300ms ease-out;
+}
+.details-enter-active {
+  max-height: 400px;
+
+  transition: all 300ms ease-out;
+}
+.details-exit {
+  max-height: 200px;
+
+  transition: all 300ms ease-out;
+
+}
+.details-exit-active {
+  overflow:hidden;
+
+  max-height: 0px;
+
+}

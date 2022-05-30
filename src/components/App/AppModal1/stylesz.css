@@ -1,0 +1,41 @@
+
+.zAppPage-enter {
+  max-width: 0px;
+}
+.zAppPage-enter-active {
+  max-width: 996px;
+  transition: max-width .5s;
+}
+
+.zAppPage-exit {
+  max-width: 498;
+
+  transition: all 300ms ease-out;
+
+}
+.zAppPage-exit-active {
+  overflow:hidden;
+
+  max-width: 0px;
+
+}
+
+.fadeBackground-enter {
+  opacity: 0;
+}
+.fadeBackground-enter-active {
+  opacity: .5;
+  transition: opacity 500ms,opacity 1s;
+}
+
+.fadeBackground-exit {
+  opacity: .5;
+
+  transition: all 300ms ease-out;
+
+}
+.fadeBackground-exit-active {
+  overflow:hidden;
+  opacity: 0;
+
+}

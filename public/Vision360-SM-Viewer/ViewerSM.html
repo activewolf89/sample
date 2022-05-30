@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="user-scalable=no" />
+    <title>V360 Small Viewer </title>
+	<script src="javaScript/jquery.min.js"></script>
+  <script type="text/javascript" src="javaScript/sm.js"></script>
+  <link href="css/Visionsm.css" rel="stylesheet" type="text/css" />
+	<style>
+	.divSM
+	{
+		float:left;
+		padding:5px;
+
+	}
+	</style>
+	<script>
+		$(document).ready(function(){
+			$(".divSM").Vision360({ surl:'https://v360.in/viewer4.0/',autoPlay:0,antiClockRotation:0});
+		});
+	</script>
+</head>
+<body>
+	<div class="divSM" data-name='moviename'>
+	</div>
+	<div class="divSM" data-name='224666836'>
+	</div>
+	</body>
+</html>

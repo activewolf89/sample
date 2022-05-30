@@ -1,0 +1,127 @@
+.hamburger {
+  width: 0;
+  height: 100vh;
+  transition: width .5s;
+}
+
+.hamburger-enter {
+  width: 40vw;
+  transition: width .5s;
+}
+.hamburger-enter-active {
+  width: 80vw;
+  transition: width .5s;
+}
+.hamburger-exit {
+  width: 40vw;
+  transition: width .5s;
+
+}
+.hamburger-exit-active {
+  width: 0;
+  transition: width .5s;
+
+}
+.general {
+  position: absolute;
+   transition: all 0.5s linear;
+   left: 0;
+   top: 0;
+   bottom: 0;
+   width: 0;
+   background-color: #fff;
+}
+
+.general-enter {
+  width: 50%;
+  transition: all 0.5s linear;
+
+}
+.general-enter-active {
+  width: 100%;
+  transition: all 0.5s linear;
+}
+.general-exit {
+  width: 25%;
+
+
+}
+.general-exit-active {
+  width: 0%;
+
+}
+
+.detail {
+  width: 0;
+  height: 100vh;
+  transition: width .5s;
+}
+
+.detail-enter {
+  width: 40vw;
+  transition: width .5s;
+}
+.detail-enter-active {
+  width: 80vw;
+  transition: width .5s;
+}
+.detail-exit {
+  width: 40vw;
+  transition: width .5s;
+
+}
+.detail-exit-active {
+  width: 0;
+  transition: width .5s;
+}
+
+.search {
+  width: 0;
+  transition: width .5s;
+}
+
+.search-enter {
+  width: 50%;
+  transition: width .5s;
+}
+.search-enter-active {
+  width: 100%;
+  transition: width .5s;
+}
+.search-exit {
+  width: 50%;
+  transition: width .5s;
+
+}
+.search-exit-active {
+  width: 0;
+  transition: width .5s;
+}
+.anotherGeneral {
+  position: absolute;
+   transition: all 0.5s linear;
+   left: 0;
+   top: 0;
+   bottom: 0;
+   width: 0;
+   background-color: #fff;
+}
+
+.anotherGeneral-enter {
+  height: 50%;
+  transition: all 0.5s linear;
+
+}
+.anotherGeneral-enter-active {
+  height: 100%;
+  transition: all 0.5s linear;
+}
+.anotherGeneral-exit {
+  height: 25%;
+
+
+}
+.anotherGeneral-exit-active {
+  height: 0%;
+
+}

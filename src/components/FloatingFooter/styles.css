@@ -1,0 +1,21 @@
+
+.shopTheToggle-enter {
+  max-height: 0px;
+}
+.shopTheToggle-enter-active {
+  max-height: 1200px;
+  transition: opacity 500ms,max-height 1s;
+}
+
+.shopTheToggle-exit {
+  max-height: 600px;
+
+  transition: all 300ms ease-out;
+
+}
+.shopTheToggle-exit-active {
+  overflow:hidden;
+
+  max-height: 0px;
+
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M42.1,112.1c-11.7,0-21.2-6.8-21.2-15.2s9.5-15.2,21.2-15.2h113c11.7,0,21.2,6.8,21.2,15.2
+		s-9.5,15.2-21.2,15.2H42.1z"/>
+	<path class="st0" d="M155.1,82.4c11.2,0,20.2,6.5,20.2,14.5s-9.1,14.5-20.2,14.5h-113c-11.2,0-20.2-6.5-20.2-14.5
+		S31,82.4,42.1,82.4H155.1 M155.1,81h-113C30,81,20,88.2,20,96.9l0,0c0,8.7,10,15.9,22.1,15.9h113c12.1,0,22.1-7.2,22.1-15.9l0,0
+		C177.2,88.2,167.2,81,155.1,81L155.1,81z"/>
+</g>
+<circle class="st1" cx="43" cy="96.9" r="9"/>
+<circle class="st1" cx="72.5" cy="96.9" r="9"/>
+<circle class="st1" cx="155" cy="96.9" r="9"/>
+<circle class="st1" cx="100.9" cy="96.9" r="9"/>
+<circle class="st1" cx="129.4" cy="96.9" r="9"/>
+</svg>

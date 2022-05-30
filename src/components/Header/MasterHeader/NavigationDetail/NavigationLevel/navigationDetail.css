@@ -1,0 +1,28 @@
+.navigation {
+  max-height: 0px;
+  overflow:hidden;
+  transition: all 300ms ease-out;
+
+}
+
+.navigation-enter {
+  max-height: 400px;
+  transition: all 300ms ease-out;
+}
+.navigation-enter-active {
+  max-height: 400px;
+
+  transition: all 300ms ease-out;
+}
+.navigation-exit {
+  max-height: 200px;
+
+  transition: all 300ms ease-out;
+
+}
+.navigation-exit-active {
+  overflow:hidden;
+
+  max-height: 0px;
+
+}

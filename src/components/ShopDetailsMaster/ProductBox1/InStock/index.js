@@ -1,0 +1,23 @@
+import React from 'react';
+import Div from 'shared/Div';
+import Span from 'shared/Span';
+
+
+// -----
+const funcC0mp = (props) =>{
+  return (
+    <Div textAlign="center" backgroundColor={props.inStock ? "green":"maroon"} color='white' fontStyle='bold'>
+      {props.inStock ?
+        <Span >
+          In Stock
+        </Span>:
+        <Span >
+          Special Order
+        </Span>
+      }
+    </Div>
+  )
+}
+funcC0mp.propTypes = {
+}
+export default funcC0mp;

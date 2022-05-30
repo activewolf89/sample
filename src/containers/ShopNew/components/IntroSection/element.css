@@ -1,0 +1,22 @@
+.element {
+  background: linear-gradient(
+    to bottom,
+    #f5deb3,
+    transparent
+  );
+}
+
+.element1 {
+  background: linear-gradient(
+    to top,
+    #303030,
+    transparent
+  );
+}
+.elementEmpty {
+  background: linear-gradient(
+    to top,
+    lightGray,
+    transparent
+  );
+}

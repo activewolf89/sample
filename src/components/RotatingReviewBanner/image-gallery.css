@@ -1,0 +1,19 @@
+  .image-gallery-slide img {
+    height: auto;
+    width: 100%;
+  }
+  .image-gallery-thumbnail {
+    height: 100%;
+    width: 85px;
+  }
+
+  @media only screen and (min-width: 900px) {
+    .image-gallery-slide div {
+    height: 550px;
+    width: 650px;
+  }
+  .image-gallery-thumbnail {
+    height: 100px;
+    width: 120px;
+  }
+}

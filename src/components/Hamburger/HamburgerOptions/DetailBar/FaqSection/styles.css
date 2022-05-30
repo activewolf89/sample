@@ -1,0 +1,23 @@
+.active {
+  height: 0;
+  transition: height .5s;
+}
+
+.active-enter {
+  height: 40%;
+  transition: height .5s;
+}
+.active-enter-active {
+  height: 80%;
+  transition: height .5s;
+}
+.active-exit {
+  height: 40%;
+  transition: height .5s;
+
+}
+.active-exit-active {
+  height: 0;
+  transition: height .5s;
+
+}
